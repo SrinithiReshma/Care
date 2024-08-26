@@ -5,14 +5,13 @@
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
-  dsn: "https://553e8b029b28b9616984e0d6af1665b2@o4507594132881408.ingest.de.sentry.io/4507594157588560",
+  dsn: "https://94ae01f5950f5b459c90d411760aa93d@o4507832249024512.ingest.de.sentry.io/4507832250531921",
 
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
-
   replaysOnErrorSampleRate: 1.0,
 
   // This sets the sample rate to be 10%. You may want this to be 100% while
